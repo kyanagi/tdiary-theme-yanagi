@@ -1,0 +1,219 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700&text=0123456789-);
+
+html{
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #eeeeee;
+  color: #000000;
+  font-family: Verdana, Helvetica, 'ヒラギノ角ゴ ProN W3','Hiragino Kaku Gothic ProN', 'メイリオ', sans-serif;
+  width: 100%;
+  margin: 0.5em 0 1em 0;
+  padding: 0;
+}
+
+div.whole-content {
+  width: 900px;
+  margin: 0 auto;
+}
+
+div.adminmenu{
+  text-align: right;
+  font-size: 90%;
+  margin: 0 1.2em 0 0;
+}
+
+h1{
+  text-align: center;
+  font-size: 300%;
+  margin: 0;
+  margin-top: -0.3em;
+}
+
+div.calendar{
+  margin-left: 1.2em;
+  font-size: 90%;
+  font-style: normal;
+}
+
+div.day{
+  margin: 1em 1em 6em 1em;
+  line-height: 1.5em;
+}
+
+div.day h2{
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 300%;
+  font-weight: bold;
+/*  border-bottom: 1px solid rgb(193, 72, 94); */
+  margin: 0;
+  line-height: 100%;
+  text-shadow: 1px 1px 1px #999999;
+}
+
+div.day h2 a{
+  text-decoration: none;
+  color: #32378A;
+}
+
+div.entry{
+  margin: 0.5em 0.5em 2em 0.5em;
+}
+
+div.section{
+  margin: 0 0 3em 0;
+}
+
+div.section h3{
+  line-height: 130%;
+  color: #222222;
+  padding: 0.3em 0.5em;
+  margin: 0.5em 0;
+  font-size: 150%;
+  font-weight: bold;
+
+  border-left: solid 1em #5eb59e;
+  background-color: #e0e0e0;
+  box-shadow: 5px 5px 4px #cccccc;
+  text-shadow: 1px 1px 1px #999999;
+}
+
+div.section h3 a{
+  text-decoration: none;
+  color: #32378A;
+}
+
+div.section h4 {
+  font-size: 130%;
+  font-weight: normal;
+  margin: 2em 0 0 0;
+  padding: 0.3em 0.5em;
+/*  border-left: solid 1em #5eb59e;
+*/
+  background-color: #e0e0e0;
+  box-shadow: 5px 5px 4px #cccccc;
+  text-shadow: 1px 1px 1px #999999;
+}
+
+div.section pre{
+  border-top: 1px solid rgb(91, 116, 200);
+  border-bottom: 1px solid rgb(91, 116, 200);
+  padding: 1em 0 1em 2em;
+  color: #444;
+  font-family: Monaco, Menlo, 'Lucida Console', 'Courier New', monospace;
+  font-size: 80%;
+  line-height: 140%;
+  background-color: rgb(219, 228, 247);
+
+  white-space: -moz-pre-wrap; /* Mozilla */
+  white-space: -pre-wrap;     /* Opera 4-6 */
+  white-space: -o-pre-wrap;   /* Opera 7 */
+  white-space: pre-wrap;      /* CSS3 */
+  word-wrap: break-word;      /* IE 5.5+ */
+
+  box-shadow: 5px 5px 4px #cccccc;
+}
+
+div.section kbd {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  background-color: #ffffff;
+  margin: 0 0.1em;
+  padding: 0.2em 0.3em;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: 2px 2px 2px #aaaaaa;
+}
+
+div.section blockquote{
+  margin: 1em 1.5em;
+  padding: 0.5em 1.5em;
+  border-left: 2px solid rgb(91, 116, 200);
+  border-right: 2px solid rgb(91, 116, 200);
+  background-color: rgb(216, 221, 241);
+}
+
+div.comment{ 
+  margin: 0.5em 0.8em;
+  padding: 0.5em;
+  border-top: 1px solid #5d9068;
+}
+
+div.comment div.caption a{ 
+  text-decoration: none;
+}
+
+div.referer{ 
+  text-align: right;
+  margin-right: 1em;
+  font-size: 90%;
+}
+div.referer a{
+  text-decoration: none;
+}
+
+div.adminmenu address{
+  margin: 1em 0 0 0;
+  font-style: italic;
+}
+
+.footer{
+  text-align: right;
+  font-style: italic;
+  font-size: 90%;
+  margin: 0 1.2em 0 0;
+}
+
+hr.sep{
+  display: none;
+}
+
+/*
+ * social icons
+ * http://hail2u.net/blog/webdesign/shirokuro-social-icons-v1.5.html
+ */
+div.social-navi {
+  margin: 0.5em 1em 0 1em;
+  text-align: right;
+}
+a.social-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-clip: padding-box;
+  background-image: url("../shiro-32.png");
+  background-repeat: no-repeat;
+  text-decoration: none;
+  opacity: 0.8;
+  box-shadow: 2px 2px 2px #cccccc;
+}
+
+a.social-icon:hover{
+  opacity: 1.0;
+}
+a.social-icon-rss {
+  background-position: center -0px;
+  background-color: rgb(245, 168, 65);
+}
+a.social-icon-twitter {
+  background-position: center -96px;
+  background-color:#8ec1da;
+}
+a.social-icon-github {
+  background-position: center -160px;
+  background-color: #666666;
+}
+
+
+@media screen and (max-width: 480px) {
+  div.whole-content {
+    width: 100%;
+  }
+}
