@@ -137,6 +137,29 @@ div.section blockquote{
   background-color: rgb(216, 221, 241);
 }
 
+div.section table {
+  margin: 1em 0 1.3em 0;
+  width: 100%;
+  border: 1px solid #888888;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background-color: #fff;
+  empty-cells: show;
+  box-shadow: 5px 5px 4px #cccccc;
+}
+
+div.section th {
+  border: 1px solid #888888;
+  background-color: #cccccc;
+  padding: 0.3em 0.5em;
+  text-align: left;
+}
+
+div.section td {
+  border: 1px solid #888888;
+  padding: 0.3em 0.5em;
+}
+
 div.comment{ 
   margin: 0.5em 0.8em;
   padding: 0.5em;
